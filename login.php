@@ -1,6 +1,7 @@
 <html>
 <head>
 <title> North Dakota P1 </title>
+<?php include('header.php');?>
 <link rel= "stylesheet" href="style.css">
 <meta name= "author" content= "Isaac Hall, Zachary Rule">
 <meta name= "description" content= "This site is part of a CSU CT 310 Course Project.">
@@ -43,8 +44,8 @@ else {
 <h1> North Dakota </h1>
 <nav>
 <a href="">About Us</a><p>|</p>
-<a href="">Theodore Roosevelt National Park</a><p>|</p>
-<a href="">International Peace Garden</a><p>|</p>
-<a href="">Maah Daah Hey Trail</a><p>|</p>
+<a href="">Theodore Roosevelt National Park</a>
+<a href="">International Peace Garden</a>
+<a href="">Maah Daah Hey Trail</a>
 </nav>
 </html>
