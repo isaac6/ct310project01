@@ -4,6 +4,6 @@
 <div class="header">
 <img src="flag.jpg" alt="flag">
 <h4>North Dakota</h4>
-<div>
+</div>
 </header>
 </html>
