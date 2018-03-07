@@ -41,6 +41,12 @@ body {
     overflow: auto;
 }
 
+#content p {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #navigation {
 	margin-left: auto;
 	margin-right: auto;
