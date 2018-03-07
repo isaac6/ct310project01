@@ -41,7 +41,6 @@ body {
 }
 
 #navigation {
-	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -61,7 +60,7 @@ body {
 
 #navigation ul li {
     float: left;
-    width: 25%;
+    width: 20%;
     background-color: #1c69adcf;
 }
 
@@ -70,7 +69,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	color: #f1f6fb;
-	font-size: 17pt;
+	font-size: 14pt;
 }
 
 #navigation ul li a:hover {
@@ -94,4 +93,13 @@ body {
     margin-left: auto;
 	margin-right: auto;
     color: #f1f6fb;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #50c2ff;
+}
+
+#footer a:hover {
+	color: #1a83de;
 }
