@@ -2,25 +2,94 @@ body {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    font-family: Times, sans-serif, serif;
+    background-image: url(../img/roosevelt-park.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#header {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    color: #f1f6fb;
+    background-color: #1c69ade8;
+    border: 2px solid black;
+    width: 40%;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+#header img {
+	float: left;
+	margin: 5px;
 }
 
 #content {
     text-align: center;
+    margin-top: 20px;
+    background-color: #1c69ade8;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    margin-left: auto;
+	margin-right: auto;
+    color: #f1f6fb;
+}
+
+#navigation {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 2px solid black;
 }
 
 #navigation ul {
-    list-style: none;
+	width: 100%;
+	list-style: none;
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	margin-left: 0px;
+	line-height: 30px;
+	position: relative;
 }
 
-#navigation li {
-    margin-bottom: 2px;
+#navigation ul li {
+    float: left;
+    width: 25%;
+    background-color: #1c69adcf;
 }
 
-#navigation a {
-    text-decoration: none;
-    color: steelblue;
+#navigation ul li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #f1f6fb;
+	font-size: 17pt;
 }
 
-#navigation a:hover {
-    color: blue;
+#navigation ul li a:hover {
+	background-color: #3a80ef;
+}
+
+#authentication {
+    display: block;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#footer {
+	text-align: center;
+    margin-top: 20px;
+    background-color: #1c69ade8;
+    line-height: 30px;
+    border: 2px solid black;
+    margin-left: auto;
+	margin-right: auto;
+    color: #f1f6fb;
 }
