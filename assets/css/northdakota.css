@@ -21,6 +21,7 @@ body {
     width: 40%;
     overflow: auto;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 #header img {
