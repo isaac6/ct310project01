@@ -47,6 +47,25 @@ body {
 	margin-right: auto;
 }
 
+#ABcontent {
+    padding: 5 px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #1c69ade8;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    margin-left: auto;
+	  margin-right: auto;
+    color: #f1f6fb;
+    overflow: auto;
+}
+#ABcontent p {
+  margin-left: 180px;
+  width: 75%;
+  padding: 3px;
+  text-align: left;
+}
+
 #navigation {
 	margin-left: auto;
 	margin-right: auto;
