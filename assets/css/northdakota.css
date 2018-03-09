@@ -55,10 +55,11 @@ body {
     padding-bottom: 10px;
     border: 2px solid black;
     margin-left: auto;
-	  margin-right: auto;
+	margin-right: auto;
     color: #f1f6fb;
     overflow: auto;
 }
+
 #ABcontent p {
   margin-left: 180px;
   width: 75%;
@@ -118,6 +119,19 @@ body {
 #authentication h4 {
 	margin-top: -5px;
 	margin-bottom: 5px;
+}
+
+#authentication p {
+    margin-bottom: 5px;
+}
+
+#authentication a {
+	text-decoration: none;
+	color: #50c2ff;
+}
+
+#authentication a:hover {
+	color: #1a83de;
 }
 
 #main {
