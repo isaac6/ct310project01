@@ -22,6 +22,7 @@ body {
     overflow: auto;
     margin-bottom: 20px;
     margin-top: 10px;
+    min-width: 500px;
 }
 
 #header img {
@@ -81,7 +82,7 @@ body {
 	margin-top: 0px;
 	margin-bottom: 30px;
 	margin-left: 0px;
-	line-height: 30px;
+	height: 30px;
 	position: relative;
 }
 
@@ -89,6 +90,8 @@ body {
     float: left;
     width: 16.666666666666%;
     background-color: #1c69adcf;
+    height: 50px;
+    padding-top: 10px;
 }
 
 #navigation ul li a {
